@@ -38,7 +38,7 @@ body{
     margin: 5%;
     z-index: 1;
     width: 36%;
-    min-width: 400px;
+    min-width: 380px;
 }
 .top-section {   
     display: flex;
@@ -111,3 +111,11 @@ h2
     position :fixed; 
     bottom: 0px; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(225, 10%, 92%); }
+@media (max-width: 500px) 
+{
+    .card 
+    {
+        width: 80vh;
+        margin-left: 20px;
+    }
+}
